@@ -35,4 +35,4 @@ Portfolio Website – fully responsive HTML/CSS portfolio showcasing my work
 
 🌍 About Me
 
-Curious, motivated, and always learning — I’m building my path into data analytics and business intelligence. My long-term goal is to leverage analytics to support smarter business decisions and growth.
+Curious, motivated, and always learning, I’m building my path into data analytics and business intelligence. My long-term goal is to leverage analytics to support smarter business decisions and growth.
