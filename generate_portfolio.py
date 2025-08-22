@@ -13,9 +13,9 @@ data["current_year"] = datetime.now(tz=UTC).year
 
 if "social_links" in data:
     for link in data["social_links"]:
-        if link.get("svg_path"):
-            with Path(link["svg_path"]).open(encoding="utf-8") as svg_file:
-                link["svg_data"] = svg_file.read()
+        if link.get("icon.svg"):
+            with Path(link["icon.svg"]).open(encoding="utf-8") as svg_file:
+                link["icon.svg"] = svg_file.read()
 
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader("."), autoescape=True)
